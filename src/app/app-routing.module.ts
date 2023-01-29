@@ -8,9 +8,19 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'folder/:id',
+    path: 'impressum',
+    loadChildren: () => import('./impressum/impressum.module').then( m => m.ImpressumPageModule)
+  },
+  {
+    path: 'folder',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  }
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+
+  
 ];
 
 @NgModule({

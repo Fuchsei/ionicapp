@@ -12,7 +12,7 @@ export class ApiService {
   
 
   getNews(topic:any){
-    return this.http.get(`http://newsapi.org/v2/everything?q=${topic}&from=2022-12-31&sortBy=publishedAt&apiKey=`+this.apiKey);
+    return this.http.get(`http://newsapi.org/v2/everything?q=${topic}&from=2023-01-10&sortBy=publishedAt&apiKey=`+this.apiKey);
   }
 }
 
