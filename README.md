@@ -1,4 +1,43 @@
-# ionicapp
+# Ionicapp
+
+## Nachname, Vorname
+Fuchs Julian
+## Matrikelnummer
+00692953
+## Projektname
+Ionic News App mit Mailzugriff (Barebones)
+## Link zum MyGit-Repository
+https://mygit.th-deg.de/jf17953/ionicapp
+
+## Installation:
+
+1. Source des Repositorys kopieren
+
+   ```sh
+   git clone https://github.com/Fuchsei/ionicapp.git
+   ```
+
+
+2. Ionic CLI installieren
+
+   ```sh
+   npm install -g @ionic/cli
+   ```
+
+   > Globale Installation ist empfohlen
+
+3. In Ionic Root verzeichnis wechseln
+
+   ```sh
+   cd ./my-app/
+   ```
+
+
+3. App starten
+
+   ```sh
+   ionic.cmd serve
+   ```
 
 
 Projektdokumentation Ionic App mit Front und Backend
@@ -52,33 +91,3 @@ Here is a list of features, that the App shall fulfil:
 - [x] It must use a REST API within a webpage, e.g. openmensa.org
 
 
-
-## Installation:
-
-1. Source des Repositorys kopieren
-
-   ```sh
-   git clone https://github.com/Fuchsei/ionicapp.git
-   ```
-
-
-2. Ionic CLI installieren
-
-   ```sh
-   npm install -g @ionic/cli
-   ```
-
-   > Globale Installation ist empfohlen
-
-3. In Ionic Root verzeichnis wechseln
-
-   ```sh
-   cd ./my-app/
-   ```
-
-
-3. App starten
-
-   ```sh
-   ionic.cmd serve
-   ```
