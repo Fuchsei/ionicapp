@@ -8,7 +8,7 @@ ion-menu-button {
 }
 
 .underlog{
-  margin-top: 200px;
+  margin-top: 50px;
   padding-left: 40px;
   padding-right:40px;
 }
@@ -50,17 +50,6 @@ button:hover {
 
 }
 
-#container {
-  text-align: center;
-  position: absolute;
-  left: 5%;
-  right: 0;
-  top: 15%;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: center;
-}
-
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -83,7 +72,6 @@ button:hover {
     padding-top:70px;
   }
   .underlog{
-    margin-top: 230px;
     padding-left: 40px;
     padding-right:40px;
   }
